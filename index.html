@@ -15,7 +15,16 @@
     <p>Earn money by showing ads inside your bot!</p>
     
     <!-- Monetag Ads Script -->
-    <script type="text/javascript" src="2832973"></script>
+    <script type="text/javascript">
+        var atOptions = {
+            'key' : '2832973',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.monetag.com/' + atOptions.key + '.js"></scr' + 'ipt>');
+    </script>
     
     <button onclick="showAlert()">Click Me</button>
     
